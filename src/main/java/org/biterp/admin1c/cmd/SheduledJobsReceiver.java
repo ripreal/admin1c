@@ -105,7 +105,6 @@ public final class SheduledJobsReceiver {
             throw new IllegalStateException("The connection is not established.");
         }
         ibList.entrySet().stream().sequential()
-            .filter(entry -> entry.getKey().getName().equals("rkudakov_adapter_adapter"))
             .forEach(ib -> setScheduledJobsDenied(ib.getKey(), ib.getValue(), scheduledJobsDenied));
     }
 
