@@ -22,8 +22,15 @@ public final class SheduledJobsReceiver {
 
     }
 
-    public synchronized void connect(String adress, int port, String login, String password) {
-        admin1c.connect(adress, port, 5000);
+    public void connect(String adress, int port, String login, String password) {
+
+        try {
+            admin1c.connect(adress, port, 1);
+        } catch (AgentAdminConnectionException e) {
+            log.error(e.getMessage());
+            System.exit(1); // We are forced to end process manually because error in admin1c.connect() hangs app
+        }
+
         List<IClusterInfo> clusterInfo = admin1c.getClusterInfoList();
         for (IClusterInfo cluster : clusterInfo) {
             admin1c.authenticateCluster(cluster.getClusterId(), "", "");
@@ -33,11 +40,13 @@ public final class SheduledJobsReceiver {
         }
     }
 
-    public synchronized void disconnect() {
-        admin1c.disconnect();
+    public  void disconnect() {
+        if (admin1c.isConnected()) {
+            admin1c.disconnect();
+        }
     }
 
-    public synchronized void lockUnlockInfobases(Long timer, boolean lock) {
+    public  void lockUnlockInfobases(Long timer, boolean lock) {
 
         if (admin1c == null || !admin1c.isConnected()) {
             throw new IllegalStateException("The connection is not established.");
@@ -59,15 +68,15 @@ public final class SheduledJobsReceiver {
         log.info("lockUnlockInfobases() completed");
     }
 
-    public synchronized IBResult getInfobasesListToBlock() {
+    public  IBResult getInfobasesListToBlock() {
 
         if (admin1c == null || !admin1c.isConnected()) {
             throw new IllegalStateException("The connection is not established.");
         }
 
-        Map<IInfoBaseInfoShort, UUID> allBases = Collections.synchronizedMap(new HashMap<>());
-        Map<IInfoBaseInfoShort, UUID> basesForUnlocks = Collections.synchronizedMap(new HashMap<>());
-        Map<IInfoBaseInfoShort, UUID> basesForLocks = Collections.synchronizedMap(new HashMap<>());
+        Map<IInfoBaseInfoShort, UUID> allBases = new HashMap<>();
+        Map<IInfoBaseInfoShort, UUID> basesForUnlocks = new HashMap<>();
+        Map<IInfoBaseInfoShort, UUID> basesForLocks = new HashMap<>();
 
         for (IClusterInfo cluster : admin1c.getClusterInfoList()) {
 
@@ -96,7 +105,7 @@ public final class SheduledJobsReceiver {
         return new IBResult(allBases, basesForUnlocks, basesForLocks);
     }
 
-    public synchronized void setScheduledJobsDenied(Map<IInfoBaseInfoShort, UUID> ibList, boolean scheduledJobsDenied) {
+    public  void setScheduledJobsDenied(Map<IInfoBaseInfoShort, UUID> ibList, boolean scheduledJobsDenied) {
         if (admin1c == null || !admin1c.isConnected()) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -104,7 +113,7 @@ public final class SheduledJobsReceiver {
             .forEach(ib -> setScheduledJobsDenied(ib.getKey(), ib.getValue(), scheduledJobsDenied));
     }
 
-    public synchronized void setScheduledJobsDenied(IInfoBaseInfoShort ib, UUID clusterId, boolean scheduledJobsDenied) {
+    public  void setScheduledJobsDenied(IInfoBaseInfoShort ib, UUID clusterId, boolean scheduledJobsDenied) {
         log.info("Processing infobase {} to {}...", ib.getName(), scheduledJobsDenied ? "lock" : "unlock");
         IInfoBaseInfo infobase = admin1c.getInfoBaseInfo(clusterId, ib.getInfoBaseId());
         if (infobase.isScheduledJobsDenied() == scheduledJobsDenied) {
@@ -116,20 +125,20 @@ public final class SheduledJobsReceiver {
         }
     }
 
-    private synchronized boolean isNonClusterConnection(ISessionInfo session) {
+    private  boolean isNonClusterConnection(ISessionInfo session) {
         return !session.getAppId().equals("SrvrConsole");
     }
 
-    private synchronized boolean isClientConnection(ISessionInfo session) {
+    private  boolean isClientConnection(ISessionInfo session) {
         String appId = session.getAppId();
         return appId.equals("1CV8C") || appId.equals("1CV8") || appId.equals("WebClient");
     }
 
-    private synchronized boolean isNonTemplateInfobase(IInfoBaseInfoShort ib) {
+    private  boolean isNonTemplateInfobase(IInfoBaseInfoShort ib) {
         return !ib.getName().startsWith("template");
     }
 
-    private synchronized boolean findExisting(IInfoBaseInfoShort ib, Map<IInfoBaseInfoShort, UUID> map) {
+    private  boolean findExisting(IInfoBaseInfoShort ib, Map<IInfoBaseInfoShort, UUID> map) {
         for (IInfoBaseInfoShort entry : map.keySet()) {
             if (entry.getInfoBaseId().equals(ib.getInfoBaseId())) {
                 return true;
@@ -138,7 +147,7 @@ public final class SheduledJobsReceiver {
         return false;
     }
 
-    private synchronized void addIfNotExists(IInfoBaseInfoShort ib, Map<IInfoBaseInfoShort, UUID> ibList, UUID clusterId) {
+    private  void addIfNotExists(IInfoBaseInfoShort ib, Map<IInfoBaseInfoShort, UUID> ibList, UUID clusterId) {
         if (!findExisting(ib, ibList)) {
             ibList.put(ib, clusterId);
         }

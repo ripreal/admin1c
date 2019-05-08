@@ -3,12 +3,7 @@ package org.biterp.admin1c.console;
 import java.util.List;
 import java.util.UUID;
 
-import com._1c.v8.ibis.admin.AgentAdminException;
-import com._1c.v8.ibis.admin.IAgentAdminConnection;
-import com._1c.v8.ibis.admin.IClusterInfo;
-import com._1c.v8.ibis.admin.IInfoBaseInfo;
-import com._1c.v8.ibis.admin.IInfoBaseInfoShort;
-import com._1c.v8.ibis.admin.ISessionInfo;
+import com._1c.v8.ibis.admin.*;
 import com._1c.v8.ibis.admin.client.IAgentAdminConnector;
 import com._1c.v8.ibis.admin.client.IAgentAdminConnectorFactory;
 

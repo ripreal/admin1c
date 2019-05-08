@@ -19,10 +19,9 @@ public class Application {
 
     public static void main(String[] args) {
 
-        /*
         args = new String[12];
         args[0] = "-server1c";
-        args[1] = "devpglz.bit-erp.loc";
+        args[1] = "devbaedu.bit-erp.loc";
         args[2] = "-portras";
         args[3] = "1545";
         args[4] = "-admin1c";
@@ -33,7 +32,6 @@ public class Application {
         args[9]= "unlock";
         args[10]= "-timer";
         args[11]= "120000";
-        */
 
         // including empty string after split()
         if (args.length != 12) {
@@ -68,9 +66,9 @@ public class Application {
         rec.connect(server1c, portRAS, admin1cUsr, admin1cPwd);
 
         if (mode.equals("lock")) {
-            rec.lockUnlockInfobases(timer, true);
+           rec.lockUnlockInfobases(timer, true);
         } else if (mode.equals("unlock")) {
-            rec.lockUnlockInfobases(timer, false);
+          rec.lockUnlockInfobases(timer, false);
         } else {
             throw new IllegalArgumentException(String.format("Wrong parameter 'mode'=%s", mode));
         }
