@@ -19,7 +19,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-
+        /*
         args = new String[12];
         args[0] = "-server1c";
         args[1] = "devadapter.bit-erp.loc";
@@ -33,7 +33,7 @@ public class Application {
         args[9]= "unlock";
         args[10]= "-timer";
         args[11]= "120000";
-
+        */
 
         // including empty string after split()
         if (args.length != 12) {
