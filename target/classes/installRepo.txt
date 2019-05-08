@@ -1,0 +1,5 @@
+org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file  \
+    -Dfile=C:/repository/admin1c/com._1c.v8.core-1.0.1.jar \
+    -DgroupId=com._1c.v8 -DartifactId=com._1c.v8.core \
+    -Dversion=1.0.1 -Dpackaging=jar \
+    -DlocalRepositoryPath=${master_project}/local-maven-repo

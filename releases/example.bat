@@ -1,0 +1,1 @@
+java -jar admin1c.jar -mode unlock -server1c devpglz -portras 1545 -admin1c Administrator -pwd1c 111 -timer 120000

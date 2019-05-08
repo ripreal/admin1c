@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.biterp</groupId>
+    <artifactId>admin1c</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8.ibis.admin</groupId>
+            <artifactId>com._1c.v8.ibis.admin.client</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8</groupId>
+            <artifactId>ibis.swp</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8</groupId>
+            <artifactId>ibis</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8</groupId>
+            <artifactId>swp.netty</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com._1c.v8</groupId>
+            <artifactId>swp</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>netty</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <finalName>admin1c</finalName>
+                            <outputDirectory>${project.basedir}/releases/</outputDirectory>
+                            <archive>
+                                <manifest>
+                                    <mainClass>org.biterp.admin1c.Application</mainClass>
+                                </manifest>
+                            </archive>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                            <appendAssemblyId>false</appendAssemblyId>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- CREATE LOCAL MAVEN REPO FOR EXTERNAL LIBS-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+
+                    <groupId>com._1c.v8</groupId>
+                    <artifactId>core</artifactId>
+                    <version>1.0.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.core-1.0.1.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>com._1c.v8.ibis.admin</groupId>
+                    <artifactId>com._1c.v8.ibis.admin.client</artifactId>
+                    <version>1.6.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.ibis.admin-1.6.1.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>com._1c.v8</groupId>
+                    <artifactId>ibis.swp</artifactId>
+                    <version>1.6.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.ibis.swp-1.1.0-SNAPSHOT.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>com._1c.v8</groupId>
+                    <artifactId>ibis</artifactId>
+                    <version>1.6.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.ibis-1.1.0-SNAPSHOT.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>com._1c.v8</groupId>
+                    <artifactId>swp.netty</artifactId>
+                    <version>1.6.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.swp.netty-1.0.1.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>com._1c.v8</groupId>
+                    <artifactId>swp</artifactId>
+                    <version>1.0.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/com._1c.v8.swp-1.0.1.jar</file>
+                    <generatePom>true</generatePom>
+
+                    <groupId>org.jboss</groupId>
+                    <artifactId>netty</artifactId>
+                    <version>1.0.1</version>
+                    <packaging>jar</packaging>
+                    <file>${basedir}/lib/netty-3.2.6.Final.jar</file>
+                    <generatePom>true</generatePom>
+
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>install-jar-lib</id>
+                        <goals>
+                            <goal>install-file</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>local-maven-repo</id>
+            <url>file:///${basedir}/local-maven-repo</url>
+        </repository>
+    </repositories>
+
+</project>

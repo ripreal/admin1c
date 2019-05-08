@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="582d973d-2ae8-4d4c-8cb2-1a358f761bc9" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1912969021">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="12" />
+          <entry key="java" value="24" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="12" />
+          <entry key="JAVA" value="24" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="107" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="107" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2078031373">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MF" value="1" />
+          <entry key="class" value="12" />
+          <entry key="java" value="18" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="12" />
+          <entry key="JAVA" value="18" />
+          <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="java" value="6646" />
+          <entry key="txt" value="25" />
+          <entry key="xml" value="477" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6646" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="XML" value="477" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AgentAdminUtil#0" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="docComment;method#connect#0;class#AgentAdminUtil#0" />
+                <element signature="method#connect#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#isConnected#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#disconnect#0;class#AgentAdminUtil#0" />
+                <element signature="method#synchronizeddisconnect#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#authenticateCluster#0;class#AgentAdminUtil#0" />
+                <element signature="method#authenticateCluster#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
+                <element signature="method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
+                <element signature="method#getClusterInfoList#0;class#AgentAdminUtil#0" />
+                <element signature="method#getInfoBaseShortInfos#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
+                <element signature="method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
+                <element signature="method#getInfoBaseInfoShort#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#updateInfoBase#0;class#AgentAdminUtil#0" />
+                <element signature="method#updateInfoBase#0;class#AgentAdminUtil#0" />
+                <element signature="docComment;method#terminateAllSessions#0;class#AgentAdminUtil#0" />
+                <element signature="method#terminateAllSessions#0;class#AgentAdminUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis.admin/1.6.1/ibis.admin-1.6.1.jar!/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="13" selection-start-line="18" selection-start-column="54" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+              <folding>
+                <element signature="method#SheduledJobsReceiver#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#connect#0;class#SheduledJobsReceiver#0" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="method#getInfobasesListToBlock#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
+                <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis.admin/1.6.1/ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/IAgentAdminConnectorFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="39" column="150" selection-start-line="39" selection-start-column="150" selection-end-line="39" selection-end-column="150" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/common/PerfCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sample.console</find>
+      <find>main</find>
+      <find>System.</find>
+      <find>successfully</find>
+      <find>lib\</find>
+      <find>ibis.admin</find>
+      <find>ibis.swp</find>
+      <find>ibis</find>
+      <find>swp.netty</find>
+      <find>local</find>
+      <find>getApp</find>
+      <find>HashMap</find>
+      <find>blockInfobasesInSingleThread</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>org.biterp.admin1c.console</replace>
+      <replace>lib\src\</replace>
+      <replace>src\lib\</replace>
+      <replace>Map</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\work\JAVA_PR\admin1c</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../examples/microservices-example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/app.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/operations/InfoBaseAuthenticatedOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/operations/ClusterAuthenticatedOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/common/PerfCalc.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/installRepo.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="admin1c" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="admin1c" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="992" />
+    <option name="width" value="928" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="IAgentAdminConnectorF&#9;PSI&#9;JAVA://com._1c.v8.ibis.admin.client.IAgentAdminConnectorFactory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557294885658" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cerberus_client" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\repository\admin1c" />
+      <recent name="C:\repository\admin1c\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.biterp.admin1c.Application" />
+      <module name="admin1c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.biterp.admin1c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="582d973d-2ae8-4d4c-8cb2-1a358f761bc9" name="Default Changelist" comment="" />
+      <created>1556619433008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556619433008</updated>
+      <workItem from="1556619435498" duration="2016000" />
+      <workItem from="1556621890967" duration="822000" />
+      <workItem from="1556622959041" duration="47786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50624000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27193934" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20522387" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="session.getAppId()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>session.getAppId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pars</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.join(&quot;,&quot;, args)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>infobase.isScheduledJobsDenied()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>infobase</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>var5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>basesForLocks</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>appId.equals(&quot;1CV8C&quot;) || appId.equals(&quot;1CV8&quot;) || appId.equals(&quot;WebClient&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>admin1c.getSessions(cluster.getClusterId()).stream()
+                .filter(this::isNonClusterConnection)
+                .collect(Collectors.toMap(sesn -&gt; admin1c.getInfoBaseInfoShort(clusterId, sesn.getInfoBaseId()), sesn -&gt; sesn))
+                .entrySet()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>admin1c.getSessions(cluster.getClusterId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/view/ConsoleView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/view/InfoBaseListView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/view/TableModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/presenter/ConsolePresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/AgentAdminConsole.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/presenter/ConnectionPresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/presenter/ClusterListPresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/operations/InfoBaseAuthenticatedOperation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/operations/ClusterAuthenticatedOperation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminOperation.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/IAgentAdminConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis-1.1.0-SNAPSHOT.jar!/com/_1c/v8/ibis/IV8Lifecycle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/AgentAdminConnectorFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.swp-1.1.0-SNAPSHOT.jar!/com/_1c/v8/ibis/swp/V8Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.swp.netty-1.0.1.jar!/com/_1c/v8/swp/internal/netty/Connector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.swp.netty-1.0.1.jar!/com/_1c/v8/swp/internal/netty/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.swp.netty-1.0.1.jar!/com/_1c/v8/swp/internal/netty/ClientProtocolHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/netty-3.2.6.Final.jar!/org/jboss/netty/channel/socket/nio/NioSocketChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#3550#3551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/netty-3.2.6.Final.jar!/org/jboss/netty/channel/DefaultChannelFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis-1.1.0-SNAPSHOT.jar!/com/_1c/v8/ibis/client/V8ConnectionContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.swp-1.0.1.jar!/com/_1c/v8/swp/ServiceWireFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/AgentAdminConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/IAgentAdminConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/stream/Stream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/regex/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="768" column="19" selection-start-line="768" selection-start-column="19" selection-end-line="768" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="422" column="14" selection-start-line="422" selection-start-column="14" selection-end-line="422" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="617" column="17" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/internal/admin/messages/GetInfoBaseInfoResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/internal/admin/AgentAdminConnectionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="579" column="30" selection-start-line="579" selection-start-column="30" selection-end-line="579" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5695">
+          <caret line="367" column="46" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/IInfoBaseInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/installRepo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="67" selection-start-column="67" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis.admin/1.6.1/ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/IAgentAdminConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis.admin/1.6.1/ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/IAgentAdminConnectorFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomBAckup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/common/PerfCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis.admin/1.6.1/ibis.admin-1.6.1.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="18" selection-start-column="54" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AgentAdminUtil#0" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="docComment;method#connect#0;class#AgentAdminUtil#0" />
+            <element signature="method#connect#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#isConnected#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#disconnect#0;class#AgentAdminUtil#0" />
+            <element signature="method#synchronizeddisconnect#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#authenticateCluster#0;class#AgentAdminUtil#0" />
+            <element signature="method#authenticateCluster#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
+            <element signature="method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
+            <element signature="method#getClusterInfoList#0;class#AgentAdminUtil#0" />
+            <element signature="method#getInfoBaseShortInfos#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
+            <element signature="method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
+            <element signature="method#getInfoBaseInfoShort#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#updateInfoBase#0;class#AgentAdminUtil#0" />
+            <element signature="method#updateInfoBase#0;class#AgentAdminUtil#0" />
+            <element signature="docComment;method#terminateAllSessions#0;class#AgentAdminUtil#0" />
+            <element signature="method#terminateAllSessions#0;class#AgentAdminUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="method#SheduledJobsReceiver#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#connect#0;class#SheduledJobsReceiver#0" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="method#getInfobasesListToBlock#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
+            <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="39" column="150" selection-start-line="39" selection-start-column="150" selection-end-line="39" selection-end-column="150" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>admin1c</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.logging.log4j:log4j-api:2.11.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file  \     -Dfile=C:/repository/admin1c/com._1c.v8.core-1.0.1.jar \     -DgroupId=com._1c.v8 -DartifactId=com._1c.v8.core \     -Dversion=1.0.1 -Dpackaging=jar \     -DlocalRepositoryPath=${master_project}/local-maven-repo" />
+    <option value="verify" />
+  </component>
+</project>
