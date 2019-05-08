@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582d973d-2ae8-4d4c-8cb2-1a358f761bc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/admin1c.jar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/admin1c.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,14 +97,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="7038" />
+          <entry key="java" value="7081" />
           <entry key="txt" value="25" />
           <entry key="xml" value="477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7038" />
+          <entry key="JAVA" value="7081" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="477" />
         </counts>
@@ -118,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="411">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#AgentAdminUtil#0" />
@@ -184,7 +182,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="29" column="104" selection-start-line="29" selection-start-column="104" selection-end-line="29" selection-end-column="104" />
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
                 <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
@@ -216,8 +214,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -482,7 +480,7 @@
     <property name="SearchEverywhereHistoryKey" value="IAgentAdminConnectorF&#9;PSI&#9;JAVA://com._1c.v8.ibis.admin.client.IAgentAdminConnectorFactory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557301726665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557301790183" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cerberus_client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -543,12 +541,12 @@
       <workItem from="1556619435498" duration="2016000" />
       <workItem from="1556621890967" duration="822000" />
       <workItem from="1556622959041" duration="47786000" />
-      <workItem from="1557298656474" duration="2114000" />
+      <workItem from="1557298656474" duration="2295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52738000" />
+    <option name="totallyTimeSpent" value="52919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -563,8 +561,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27193934" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27193934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -575,13 +573,13 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.20522387" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20522387" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,10 +952,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
+            <element signature="e#5190#5191#0" expanded="true" />
+            <element signature="e#5254#5255#0" expanded="true" />
+            <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
+            <element signature="e#5528#5529#0" expanded="true" />
+            <element signature="e#5587#5588#0" expanded="true" />
+            <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="411">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#AgentAdminUtil#0" />
@@ -984,28 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="104" selection-start-line="29" selection-start-column="104" selection-end-line="29" selection-end-column="104" />
-          <folding>
-            <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
-            <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
-            <element signature="e#5190#5191#0" expanded="true" />
-            <element signature="e#5254#5255#0" expanded="true" />
-            <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
-            <element signature="e#5528#5529#0" expanded="true" />
-            <element signature="e#5587#5588#0" expanded="true" />
-            <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
-            <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
