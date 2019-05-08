@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582d973d-2ae8-4d4c-8cb2-1a358f761bc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/releases/admin1c.jar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/admin1c.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,8 +78,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="15" />
-          <entry key="java" value="19" />
+          <entry key="class" value="16" />
+          <entry key="java" value="20" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="4" />
@@ -86,8 +87,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="19" />
+          <entry key="CLASS" value="16" />
+          <entry key="JAVA" value="20" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
@@ -97,14 +98,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="7081" />
+          <entry key="java" value="7438" />
           <entry key="txt" value="25" />
           <entry key="xml" value="477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7081" />
+          <entry key="JAVA" value="7438" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="477" />
         </counts>
@@ -116,31 +117,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#AgentAdminUtil#0" />
                 <element signature="docComment;method#connect#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#isConnected#0;class#AgentAdminUtil#0" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="docComment;method#disconnect#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#authenticateCluster#0;class#AgentAdminUtil#0" />
-                <element signature="method#authenticateCluster#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
-                <element signature="method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
-                <element signature="method#getInfoBaseShortInfos#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
-                <element signature="method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
-                <element signature="method#getInfoBaseInfoShort#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#updateInfoBase#0;class#AgentAdminUtil#0" />
-                <element signature="method#updateInfoBase#0;class#AgentAdminUtil#0" />
-                <element signature="docComment;method#terminateAllSessions#0;class#AgentAdminUtil#0" />
-                <element signature="method#terminateAllSessions#0;class#AgentAdminUtil#0" />
-                <element signature="e#5713#5714#0" expanded="true" />
-                <element signature="e#5769#5770#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/IAgentAdminConnection.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -178,19 +171,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="233">
+              <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
               <folding>
-                <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
-                <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
-                <element signature="e#5190#5191#0" expanded="true" />
-                <element signature="e#5254#5255#0" expanded="true" />
+                <element signature="method#SheduledJobsReceiver#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#disconnect#0;class#SheduledJobsReceiver#0" />
+                <element signature="method#getInfobasesListToBlock#0;class#SheduledJobsReceiver#0" />
+                <element signature="e#5569#5570#0" expanded="true" />
+                <element signature="e#5633#5634#0" expanded="true" />
                 <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
-                <element signature="e#5528#5529#0" expanded="true" />
-                <element signature="e#5587#5588#0" expanded="true" />
+                <element signature="e#5907#5908#0" expanded="true" />
+                <element signature="e#5966#5967#0" expanded="true" />
                 <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
                 <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
               </folding>
@@ -211,11 +205,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="437">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,22 +218,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -313,8 +295,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java" />
       </list>
     </option>
   </component>
@@ -464,7 +446,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin1c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admin1c" type="b2602c69:ProjectViewProjectNode" />
@@ -480,7 +478,7 @@
     <property name="SearchEverywhereHistoryKey" value="IAgentAdminConnectorF&#9;PSI&#9;JAVA://com._1c.v8.ibis.admin.client.IAgentAdminConnectorFactory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557301790183" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557304596452" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cerberus_client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -541,18 +539,18 @@
       <workItem from="1556619435498" duration="2016000" />
       <workItem from="1556621890967" duration="822000" />
       <workItem from="1556622959041" duration="47786000" />
-      <workItem from="1557298656474" duration="2295000" />
+      <workItem from="1557298656474" duration="4305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52919000" />
+    <option name="totallyTimeSpent" value="54929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -561,8 +559,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27193934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24485373" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27193934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -655,7 +653,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/AgentAdminConsole.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/presenter/ConnectionPresenter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/presenter/ClusterListPresenter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/ui/operations/InfoBaseAuthenticatedOperation.java" />
@@ -819,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -952,60 +942,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="method#setScheduledJobsDenied#0;class#SheduledJobsReceiver#0" />
-            <element signature="method#setScheduledJobsDenied#1;class#SheduledJobsReceiver#0" />
-            <element signature="e#5190#5191#0" expanded="true" />
-            <element signature="e#5254#5255#0" expanded="true" />
-            <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
-            <element signature="e#5528#5529#0" expanded="true" />
-            <element signature="e#5587#5588#0" expanded="true" />
-            <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
-            <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/IAgentAdminConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#AgentAdminUtil#0" />
             <element signature="docComment;method#connect#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#isConnected#0;class#AgentAdminUtil#0" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="docComment;method#disconnect#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#authenticateCluster#0;class#AgentAdminUtil#0" />
-            <element signature="method#authenticateCluster#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
-            <element signature="method#addInfoBaseCredentials#0;class#AgentAdminUtil#0" />
-            <element signature="method#getInfoBaseShortInfos#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
-            <element signature="method#getInfoBaseInfo#0;class#AgentAdminUtil#0" />
-            <element signature="method#getInfoBaseInfoShort#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#updateInfoBase#0;class#AgentAdminUtil#0" />
-            <element signature="method#updateInfoBase#0;class#AgentAdminUtil#0" />
-            <element signature="docComment;method#terminateAllSessions#0;class#AgentAdminUtil#0" />
-            <element signature="method#terminateAllSessions#0;class#AgentAdminUtil#0" />
-            <element signature="e#5713#5714#0" expanded="true" />
-            <element signature="e#5769#5770#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="437">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+          <folding>
+            <element signature="method#SheduledJobsReceiver#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#disconnect#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#getInfobasesListToBlock#0;class#SheduledJobsReceiver#0" />
+            <element signature="e#5569#5570#0" expanded="true" />
+            <element signature="e#5633#5634#0" expanded="true" />
+            <element signature="method#isClientConnection#0;class#SheduledJobsReceiver#0" />
+            <element signature="e#5907#5908#0" expanded="true" />
+            <element signature="e#5966#5967#0" expanded="true" />
+            <element signature="method#findExisting#0;class#SheduledJobsReceiver#0" />
+            <element signature="method#addIfNotExists#0;class#SheduledJobsReceiver#0" />
           </folding>
         </state>
       </provider>

@@ -19,10 +19,10 @@ public class Application {
 
     public static void main(String[] args) {
 
-        /*
+
         args = new String[12];
         args[0] = "-server1c";
-        args[1] = "devbaedu.bit-erp.loc";
+        args[1] = "devadapter.bit-erp.loc";
         args[2] = "-portras";
         args[3] = "1545";
         args[4] = "-admin1c";
@@ -33,7 +33,7 @@ public class Application {
         args[9]= "unlock";
         args[10]= "-timer";
         args[11]= "120000";
-        */
+
 
         // including empty string after split()
         if (args.length != 12) {
@@ -64,17 +64,22 @@ public class Application {
 
         perfCalc.start();
 
-        SheduledJobsReceiver rec = new SheduledJobsReceiver(new AgentAdminUtil(new AgentAdminConnectorFactory()));
-        rec.connect(server1c, portRAS, admin1cUsr, admin1cPwd);
+        try {
+            SheduledJobsReceiver rec = new SheduledJobsReceiver(new AgentAdminUtil(new AgentAdminConnectorFactory()));
+            rec.connect(server1c, portRAS, admin1cUsr, admin1cPwd);
 
-        if (mode.equals("lock")) {
-           rec.lockUnlockInfobases(timer, true);
-        } else if (mode.equals("unlock")) {
-          rec.lockUnlockInfobases(timer, false);
-        } else {
-            throw new IllegalArgumentException(String.format("Wrong parameter 'mode'=%s", mode));
+            if (mode.equals("lock")) {
+                rec.lockUnlockInfobases(timer, true);
+            } else if (mode.equals("unlock")) {
+                rec.lockUnlockInfobases(timer, false);
+            } else {
+                throw new IllegalArgumentException(String.format("Wrong parameter 'mode'=%s", mode));
+            }
+            rec.disconnect();
+        } catch (Exception e) {
+            log.error(e.getMessage());
+            System.exit(1); // We are forced to end process manually because error in admin1c.connect() hangs app
         }
-        rec.disconnect();
 
         perfCalc.end();
         log.info("Command {} finished successfully and took {}", mode, perfCalc.getTime());

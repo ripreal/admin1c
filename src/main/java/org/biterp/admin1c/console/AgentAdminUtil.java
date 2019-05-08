@@ -30,7 +30,7 @@ public  final  class AgentAdminUtil {
      * @param timeout connection timeout (in milliseconds)
      * @throws AgentAdminException in the case of errors.
      */
-    public synchronized void connect(String address, int port, long timeout) {
+    public  void connect(String address, int port, long timeout) {
         if (connection != null) {
             throw new IllegalStateException("The connection is already established.");
         }
@@ -44,7 +44,7 @@ public  final  class AgentAdminUtil {
      *
      * @return {@code true} if connected, {@code false} overwise
      */
-    public synchronized boolean  isConnected() {
+    public  boolean  isConnected() {
         return connection != null;
     }
 
@@ -53,7 +53,7 @@ public  final  class AgentAdminUtil {
      *
      * @throws AgentAdminException in the case of errors.
      */
-    public synchronized void disconnect() {
+    public  void disconnect() {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -73,7 +73,7 @@ public  final  class AgentAdminUtil {
      * @param userName  cluster administrator name
      * @param password  cluster administrator password
      */
-    public synchronized void authenticateCluster(UUID clusterId, String userName, String password) {
+    public  void authenticateCluster(UUID clusterId, String userName, String password) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -89,7 +89,7 @@ public  final  class AgentAdminUtil {
      * @param userName  infobase administrator name
      * @param password  infobase administrator password
      */
-    public synchronized void addInfoBaseCredentials(UUID clusterId, String userName,
+    public  void addInfoBaseCredentials(UUID clusterId, String userName,
                                        String password) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
@@ -103,7 +103,7 @@ public  final  class AgentAdminUtil {
      *
      * @return list of cluster descriptions
      */
-    public synchronized List<IClusterInfo> getClusterInfoList() {
+    public  List<IClusterInfo> getClusterInfoList() {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -117,7 +117,7 @@ public  final  class AgentAdminUtil {
      * @param clusterId cluster ID
      * @return list of short descriptions of cluster infobases
      */
-    public synchronized List<IInfoBaseInfoShort> getInfoBaseShortInfos(UUID clusterId) {
+    public  List<IInfoBaseInfoShort> getInfoBaseShortInfos(UUID clusterId) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -131,7 +131,7 @@ public  final  class AgentAdminUtil {
      * @param infoBaseId infobase ID
      * @return infobase full infobase description
      */
-    public synchronized IInfoBaseInfo getInfoBaseInfo(UUID clusterId, UUID infoBaseId) {
+    public  IInfoBaseInfo getInfoBaseInfo(UUID clusterId, UUID infoBaseId) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -139,7 +139,7 @@ public  final  class AgentAdminUtil {
         return connection.getInfoBaseInfo(clusterId, infoBaseId);
     }
 
-    public synchronized IInfoBaseInfoShort getInfoBaseInfoShort(UUID clusterId, UUID infoBaseId) {
+    public  IInfoBaseInfoShort getInfoBaseInfoShort(UUID clusterId, UUID infoBaseId) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -153,7 +153,7 @@ public  final  class AgentAdminUtil {
      * @param clusterId cluster ID
      * @param info      infobase parameters
      */
-    public synchronized void updateInfoBase(UUID clusterId, IInfoBaseInfo info) {
+    public  void updateInfoBase(UUID clusterId, IInfoBaseInfo info) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -166,7 +166,7 @@ public  final  class AgentAdminUtil {
      *
      * @param clusterId cluster ID
      */
-    public synchronized void terminateAllSessions(UUID clusterId) {
+    public  void terminateAllSessions(UUID clusterId) {
         if (connection == null) {
             throw new IllegalStateException("The connection is not established.");
         }
@@ -177,7 +177,7 @@ public  final  class AgentAdminUtil {
         }
     }
 
-    public synchronized List<ISessionInfo> getSessions(UUID clusterId) {
+    public  List<ISessionInfo> getSessions(UUID clusterId) {
         return connection.getSessions(clusterId);
     }
 }

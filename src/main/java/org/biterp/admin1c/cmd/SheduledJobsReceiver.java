@@ -24,12 +24,7 @@ public final class SheduledJobsReceiver {
 
     public void connect(String adress, int port, String login, String password) {
 
-        try {
-            admin1c.connect(adress, port, 1);
-        } catch (AgentAdminConnectionException e) {
-            log.error(e.getMessage());
-            System.exit(1); // We are forced to end process manually because error in admin1c.connect() hangs app
-        }
+        admin1c.connect(adress, port, 1);
 
         List<IClusterInfo> clusterInfo = admin1c.getClusterInfoList();
         for (IClusterInfo cluster : clusterInfo) {
@@ -110,18 +105,23 @@ public final class SheduledJobsReceiver {
             throw new IllegalStateException("The connection is not established.");
         }
         ibList.entrySet().stream().sequential()
+            .filter(entry -> entry.getKey().getName().equals("rkudakov_adapter_adapter"))
             .forEach(ib -> setScheduledJobsDenied(ib.getKey(), ib.getValue(), scheduledJobsDenied));
     }
 
     public  void setScheduledJobsDenied(IInfoBaseInfoShort ib, UUID clusterId, boolean scheduledJobsDenied) {
-        log.info("Processing infobase {} to {}...", ib.getName(), scheduledJobsDenied ? "lock" : "unlock");
-        IInfoBaseInfo infobase = admin1c.getInfoBaseInfo(clusterId, ib.getInfoBaseId());
-        if (infobase.isScheduledJobsDenied() == scheduledJobsDenied) {
-            log.info("Infobase {} already {}. No actions performed", ib.getName(), scheduledJobsDenied ? "locked" : "unlocked");
-        } else {
-            infobase.setScheduledJobsDenied(scheduledJobsDenied);
-            admin1c.updateInfoBase(clusterId, infobase);
-            log.info("Infobase {} {} successfully", ib.getName(), scheduledJobsDenied ? "locked" : "unlocked");
+        try {
+            log.info("Processing infobase {} to {}...", ib.getName(), scheduledJobsDenied ? "lock" : "unlock");
+            IInfoBaseInfo infobase = admin1c.getInfoBaseInfo(clusterId, ib.getInfoBaseId());
+            if (infobase.isScheduledJobsDenied() == scheduledJobsDenied) {
+                log.info("Infobase {} already {}. No actions performed", ib.getName(), scheduledJobsDenied ? "locked" : "unlocked");
+            } else {
+                infobase.setScheduledJobsDenied(scheduledJobsDenied);
+                admin1c.updateInfoBase(clusterId, infobase);
+                log.info("Infobase {} {} successfully", ib.getName(), scheduledJobsDenied ? "locked" : "unlocked");
+            }
+        } catch (AgentAdminAuthenticationException e) {
+            log.error("Cannot authentificate in infobase {} Failed to set scheduledJobsDenied to {}. Detailed info:{}", ib.getName(), e.getMessage());
         }
     }
 
