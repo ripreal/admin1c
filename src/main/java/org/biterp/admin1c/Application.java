@@ -18,7 +18,6 @@ public class Application {
     private final static Logger log = LoggerFactory.getLogger(SheduledJobsReceiver.class);
 
     public static void main(String[] args) {
-
         /*
         args = new String[12];
         args[0] = "-server1c";
@@ -34,7 +33,6 @@ public class Application {
         args[10]= "-timer";
         args[11]= "120000";
         */
-
         // including empty string after split()
         if (args.length != 12) {
             throw new IllegalArgumentException("Wrong parameters amount. You need to pass 6 paramters: -server1c -portras -admin1c -pwd1c -mode -timer");
