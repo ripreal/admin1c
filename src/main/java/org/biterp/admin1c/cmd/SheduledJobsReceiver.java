@@ -82,10 +82,10 @@ public final class SheduledJobsReceiver {
                 .collect(Collectors.toMap(sesn -> admin1c.getInfoBaseInfoShort(clusterId, sesn.getInfoBaseId()), sesn -> sesn))
                 .entrySet()
                 .stream()
+                .filter(entry -> isNotIgnoredIb(entry.getKey()))
                 .peek(entry -> addIfNotExists(entry.getKey(), allBases, clusterId))
                 .filter(entry -> isClientConnection(entry.getValue()))
                 .filter(entry -> isNonTemplateInfobase(entry.getKey()))
-                .filter(entry -> isNotIgnoredIb(entry.getKey()))
                 .map(Map.Entry::getKey)
                 .forEach((ib) -> addIfNotExists(ib, basesForUnlocks, clusterId));
 
@@ -126,7 +126,7 @@ public final class SheduledJobsReceiver {
     }
 
     private  boolean isNonClusterConnection(ISessionInfo session) {
-        return !session.getAppId().equals("SrvrConsole");
+        return !(session.getAppId().equals("SrvrConsole") || session.getAppId().equals("RAS"));
     }
 
     private  boolean isNotIgnoredIb(IInfoBaseInfoShort ib) {
