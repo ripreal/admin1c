@@ -44,7 +44,7 @@ public  final  class AgentAdminUtil {
      *
      * @return {@code true} if connected, {@code false} overwise
      */
-    public  boolean  isConnected() {
+    public  boolean isConnected() {
         return connection != null;
     }
 
@@ -159,6 +159,20 @@ public  final  class AgentAdminUtil {
         }
 
         connection.updateInfoBase(clusterId, info);
+    }
+
+    /**
+     * Drop infobase from cluster
+     *
+     * @param clusterId cluster ID
+     * @param infoBaseId infobase ID
+     * @param dropType - 0 - if database should be remained, 1 - if database should be dropped, 2 - if database should be cleared
+     */
+    public  void dropInfoBase(UUID clusterId, UUID infoBaseId, int dropType) {
+        if (connection == null) {
+            throw new IllegalStateException("The connection is not established.");
+        }
+        connection.dropInfoBase(clusterId, infoBaseId, dropType);
     }
 
     /**
