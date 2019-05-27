@@ -28,15 +28,15 @@ public class Application {
         args[6] = "-pwd1c";
         args[7] = "111";
         args[8] = "-mode";
-        args[9]= "lock";
+        args[9]= "unauthdrop";
         args[10]= "-timer";
         args[11]= "120000";
         args[12]= "-offscriptpath";
-        args[13]= "C:\\repository\\devops_sources\\copy_etalon\\set_offline_db.sql";
+        //args[13]= "C:\\repository\\devops_sources\\copy_etalon\\set_offline_db.sql";
         */
         // including empty string after split()
         if (args.length == 0) {
-            throw new IllegalArgumentException("Wrong parameters amount. You need to pass parameters: -server1c -portras -admin1c -pwd1c -mode -timer");
+            throw new IllegalArgumentException("Wrong parameters. You need to pass parameters: -server1c -portras -admin1c -pwd1c -mode -timer -offscriptpath");
         }
 
         Map<String, String> entries = new HashMap<>();

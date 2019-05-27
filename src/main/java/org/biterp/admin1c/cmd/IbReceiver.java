@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 public class IbReceiver {
     private final AgentAdminUtil admin1c;
-    private final static Logger log = LoggerFactory.getLogger(SheduledJobsReceiver.class);
+    private final static Logger log = LoggerFactory.getLogger(IbReceiver.class);
 
     public IbReceiver(AgentAdminUtil admin1c) {
         this.admin1c = admin1c;

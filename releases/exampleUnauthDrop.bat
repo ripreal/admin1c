@@ -1,0 +1,1 @@
+java -jar admin1c.jar -mode unauthdrop -server1c devfinbase -portras 1545 -admin1c Administrator -pwd1c 111

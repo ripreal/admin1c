@@ -5,6 +5,8 @@ import org.biterp.admin1c.console.AgentAdminUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Optional;
+
 public class UnauthDropCommand implements Command {
 
     private final String server1c;
@@ -13,7 +15,7 @@ public class UnauthDropCommand implements Command {
     private final String admin1cPwd;
     private final String offlineScriptPath;
 
-    private final static Logger log = LoggerFactory.getLogger(SheduledJobsReceiver.class);
+    private final static Logger log = LoggerFactory.getLogger(UnauthDropCommand.class);
 
     public UnauthDropCommand(String server1c, int portRAS, String admin1cUsr, String admin1cPwd, String offlineScriptPath) {
         this.server1c = server1c;
@@ -28,7 +30,7 @@ public class UnauthDropCommand implements Command {
         try {
             IbReceiver rec = new IbReceiver(new AgentAdminUtil(new AgentAdminConnectorFactory()));
             rec.connect(server1c, portRAS, admin1cUsr, admin1cPwd);
-            rec.dropBases(server1c, offlineScriptPath);
+            rec.dropBases(server1c, Optional.ofNullable(offlineScriptPath).orElse("set_offline_db.sql"));
             rec.disconnect();
         } catch (Exception e) {
             log.error(e.getMessage());

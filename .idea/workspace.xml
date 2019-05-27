@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="582d973d-2ae8-4d4c-8cb2-1a358f761bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/admin1c.jar" beforeDir="false" afterPath="$PROJECT_DIR$/releases/admin1c.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/example.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,21 +72,22 @@
     <session id="-2078031373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="19" />
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
           <entry key="properties" value="2" />
           <entry key="txt" value="1" />
           <entry key="xml" value="6" />
@@ -91,7 +96,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="19" />
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
@@ -101,14 +106,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="9230" />
+          <entry key="java" value="9292" />
           <entry key="txt" value="25" />
           <entry key="xml" value="479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9230" />
+          <entry key="JAVA" value="9292" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="479" />
         </counts>
@@ -120,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="1779">
               <caret line="122" column="50" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="50" />
             </state>
           </provider>
@@ -129,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="139">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#disconnect#0;class#IbReceiver#0" />
@@ -140,25 +145,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="850">
               <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
@@ -167,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="799">
               <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="docComment;class#AgentAdminUtil#0" />
@@ -196,8 +185,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="297">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="383">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,9 +212,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="382" selection-start-line="382" selection-end-line="382" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/LockCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="102">
               <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -306,8 +304,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/sql/MSSQLProvider.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java" />
       </list>
     </option>
@@ -410,8 +408,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,7 +473,7 @@
     <property name="SearchEverywhereHistoryKey" value="rkudakov&#9;null&#9;null&#10;IAgentAdminConnectorF&#9;PSI&#9;JAVA://com._1c.v8.ibis.admin.client.IAgentAdminConnectorFactory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558709889584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558710087188" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -541,18 +539,19 @@
       <workItem from="1557755538396" duration="7340000" />
       <workItem from="1557910324632" duration="13621000" />
       <workItem from="1558691572839" duration="1457000" />
-      <workItem from="1558698799091" duration="9854000" />
+      <workItem from="1558698799091" duration="10463000" />
+      <workItem from="1558939035519" duration="3784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92338000" />
+    <option name="totallyTimeSpent" value="96731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -561,8 +560,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24485373" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27193934" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24485373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27193934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -620,6 +619,30 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -733,7 +756,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java" />
     <entry file="jar://$PROJECT_DIR$/lib/com._1c.v8.ibis.admin-1.6.1.jar!/com/_1c/v8/ibis/admin/client/IAgentAdminConnector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1005,77 +1027,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/sql/MSSQLProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/sql/MSSQLProvider.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="850">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/LockCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/_1c/v8/ibis/admin/com._1c.v8.ibis.admin.client/1.6.1/com._1c.v8.ibis.admin.client-1.6.1.jar!/com/_1c/v8/ibis/admin/InfoBaseInfoShort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/console/AgentAdminUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="799">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="docComment;class#AgentAdminUtil#0" />
@@ -1100,10 +1072,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/LockCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IBResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/SheduledJobsReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1779">
+          <caret line="122" column="50" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/UnauthDropCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/cmd/IbReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="139">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#disconnect#0;class#IbReceiver#0" />
@@ -1113,8 +1129,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/biterp/admin1c/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="297">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
