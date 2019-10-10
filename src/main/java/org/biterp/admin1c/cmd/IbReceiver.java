@@ -43,9 +43,14 @@ public class IbReceiver {
 
         for (IClusterInfo cluster : admin1c.getClusterInfoList()) {
             UUID clusterId = cluster.getClusterId();
-            for (IInfoBaseInfoShort ibShort : admin1c.getInfoBaseShortInfos(clusterId)) {
+            List<IInfoBaseInfoShort> basesList = admin1c.getInfoBaseShortInfos(clusterId).stream()
+                .filter(this::isNotIgnoredIb)
+                .collect(Collectors.toList());
+
+            for (IInfoBaseInfoShort ibShort : basesList) {
                 try {
                     log.info("processing {}...", ibShort.getName());
+
                     IInfoBaseInfo infobase = admin1c.getInfoBaseInfo(clusterId, ibShort.getInfoBaseId());
                 } catch (AgentAdminAuthenticationException e) {
                     log.info("Found unauthorized infobase - {}...", ibShort.getName());
@@ -55,7 +60,12 @@ public class IbReceiver {
                     log.info("Infobase {} deleted", ibShort.getName());
                 }
             }
+            log.info("dropBases command completed");
         }
+    }
+
+    private  boolean isNotIgnoredIb(IInfoBaseInfoShort ib) {
+        return !ib.getDescr().toUpperCase().equals("IGNORE") && !ib.getDescr().toUpperCase().equals("IGNORE_ALL");
     }
 
     private void setDbOffline(String serverSql, String offlineScriptPath, String ibname) {

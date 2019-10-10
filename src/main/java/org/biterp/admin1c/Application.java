@@ -17,10 +17,10 @@ public class Application {
     private final static Logger log = LoggerFactory.getLogger(SheduledJobsReceiver.class);
 
     public static void main(String[] args) {
-        /*
+
         args = new String[14];
         args[0] = "-server1c";
-        args[1] = "devfinbase.bit-erp.loc";
+        args[1] = "devpglz.bit-erp.loc";
         args[2] = "-portras";
         args[3] = "1545";
         args[4] = "-admin1c";
@@ -33,7 +33,7 @@ public class Application {
         args[11]= "120000";
         args[12]= "-offscriptpath";
         //args[13]= "C:\\repository\\devops_sources\\copy_etalon\\set_offline_db.sql";
-        */
+
         // including empty string after split()
         if (args.length == 0) {
             throw new IllegalArgumentException("Wrong parameters. You need to pass parameters: -server1c -portras -admin1c -pwd1c -mode -timer -offscriptpath");

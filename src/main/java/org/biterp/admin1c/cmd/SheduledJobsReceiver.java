@@ -115,6 +115,8 @@ public final class SheduledJobsReceiver {
             IInfoBaseInfo infobase = admin1c.getInfoBaseInfo(clusterId, ib.getInfoBaseId());
             if (infobase.isScheduledJobsDenied() == scheduledJobsDenied) {
                 log.info("Infobase {} already {}. No actions performed", ib.getName(), scheduledJobsDenied ? "locked" : "unlocked");
+                infobase.setScheduledJobsDenied(scheduledJobsDenied);
+                admin1c.updateInfoBase(clusterId, infobase);
             } else {
                 infobase.setScheduledJobsDenied(scheduledJobsDenied);
                 admin1c.updateInfoBase(clusterId, infobase);
@@ -130,7 +132,7 @@ public final class SheduledJobsReceiver {
     }
 
     private  boolean isNotIgnoredIb(IInfoBaseInfoShort ib) {
-        return !ib.getDescr().toUpperCase().equals("IGNORE");
+        return !ib.getDescr().toUpperCase().equals("IGNORE") && !ib.getDescr().toUpperCase().equals("IGNORE_ALL");
     }
 
     private  boolean isClientConnection(ISessionInfo session) {
