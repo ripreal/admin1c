@@ -1,7 +1,3 @@
-
-| :memo:        | Check my new project API Whatsapp [https://basis-api.com](https://basis-api.com)      |
-|---------------|:------------------------|
-
 ## Краткое описание
 Утилита-клиент для взаимодействия с RAS сервером 1с через java. Требуется установленного JRE
 
